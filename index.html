@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biryani</title>
+    <style>
+      h1 {
+        text-align: center;
+        color: green;
+        display: block;
+        border: 1px solid salmon;
+        padding: 10px 0px;
+        border-radius: 6px;
+        margin: 0px auto;
+        width: 100%;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      h2 {
+        
+        text-align: center;
+        color: green;
+        font-size: 20px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        display: block;
+        border: none;
+        margin: 20px auto;
+        width: 100%;
+        font-weight: lighter;
+       
+      }
+      img {
+
+        display: block;
+        margin: 0 auto;
+        max-width:  500%;
+        border-radius: 10px;
+      }
+      p {
+        text-align: left;
+        color: green;
+        display: block;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        list-style: none;
+        line-height: 1.5;
+        font-size: 20px;
+        margin: 20px 0 10px;
+
+      }
+    </style>
+    <style>
+      .wiki {
+        color: green;
+        display: block;
+        margin-top: 25px;
+        color: salmon;
+        font-size: 15px;
+      }
+      .container{
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 30px 60px;
+        display: block;
+        border: none;
+        border-radius: 6px;
+        width: 40%;
+        background: rgb(226, 224, 191);
+      }
+      
+      .name{
+        text-align: center;
+      }
+    </style>
+    <style>
+      button {
+        text-align: center;
+        color: green;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        display: block;
+        border: none;
+        padding: 15px 20px;
+        border-radius: 6px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        margin: 30px auto;
+        width: 100%;
+        background: salmon;
+        transition: all 200ms ease-in-out;
+      
+      }
+      button:hover {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+    <h1>
+      <strong>I love Biryani</strong>
+    </h1>
+    <h2>
+      <strong>Nutrients Loaded Cuisine </strong>
+    </h2>
+   
+      <img
+        src="https://butteroverbae.com/wp-content/uploads/2020/10/20201021_142236.jpg"
+        alt="Biryani"
+        width="300" />
+       
+      <p>
+        <strong> Biryani </strong> is good for health because one serving of
+        chicken biryani contains protein, carbohydrates as well as fats. Protein
+        comes from chicken meat and cashew nut, carbohydrate comes from the rice
+        and the fat from the oil used. Biryani also helps in smooth functioning
+        of heart, kidney and liver.
+      
+  </br>
+
+</p>
+ <a
+          href="https://en.wikipedia.org/wiki/Biryani"
+          target="_blank"
+          class="wiki"
+          >Read more about Biryani on Wikipedia</a >
+
+    <button>TRY BIRYANI NOW😋 </button>
+   
+    </div>
+    
+
+<script>
+      function submit() {
+        let name = prompt("What is your name");
+        alert (
+          "Thanks " + name + ",we will be in touch. Meanwhile, have a lot of Biryani!");
+      }
+  let button = document.querySelector("button");
+  button.addEventListener("click", submit);
+</script>
+
+  </body>
+</html>
+ 
